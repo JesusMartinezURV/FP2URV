@@ -10,7 +10,11 @@ int main(int argc, char *argv[])
     }
     else
     {
-
-
+        while ((argv[1] < 0) || (argv[1] >= MAX))
+        {
+            printf("Tu usuario esta fuera del rango de usuarios")
+            scanf("%c", &argv[1])
+        }
+        
     }
 }
